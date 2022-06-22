@@ -160,7 +160,7 @@ let url;
 
 async function func () {
     
-    url = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&units=metric&appid=${apiKey}`
+    url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&units=metric&appid=${apiKey}`
     const request = await fetch(url);
     const productsArray = await request.json();
     
