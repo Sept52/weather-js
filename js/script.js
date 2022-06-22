@@ -1,8 +1,7 @@
 "use strick"
 
-window.onload = () => {
-    func();
-}
+window.onload = func;
+
 
 
 // -------------------------- Date and greeting --------------------------
