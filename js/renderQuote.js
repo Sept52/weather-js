@@ -8,7 +8,7 @@ funcc();
 
 
 async function funcc() {
-    const response = await fetch("../js/quotes.json");
+    const response = await fetch("https://run.mocky.io/v3/5b094d60-ceb2-4e6a-9f8f-5417f3e7ccb1");
     const quotesArray = await response.json();
     renderArray(quotesArray);
     
