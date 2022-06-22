@@ -8,7 +8,7 @@ funcc();
 
 
 async function funcc() {
-    const response = await fetch("./quotes.json");
+    const response = await fetch("../js/quotes.json");
     const quotesArray = await response.json();
     renderArray(quotesArray);
     
